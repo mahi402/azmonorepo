@@ -39,7 +39,7 @@ const originList = (): string[] | string => {
 export const createApp = async (): Promise<Express> => {
   const config = await getConfig();
   const app = express();
-
+  app.use(cors());
   // Configuration
   observability(config.observability);
   await configureMongoose(config.database);
