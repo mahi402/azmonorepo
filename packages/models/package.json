@@ -18,13 +18,16 @@
   },
   "dependencies": {
     "mongodb": "^4.17.0",
-    "mongoose": "^6.11.3"
+    "mongoose": "^6.11.3",
+    "@repo/models": "^1.0.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "^20.11.24",
     "tsup": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@repo/models": "^1.0.0"
+
   }
 }
